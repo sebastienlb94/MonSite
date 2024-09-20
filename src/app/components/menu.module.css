@@ -1,0 +1,64 @@
+.menu {
+  background-color: #f5efe6;
+  padding: 1rem;
+  border-bottom: 1px solid #ece7de;
+  display: flex;
+  align-items: center;
+}
+
+.menu ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  gap: 1rem;
+  width: 100%;
+  align-items: center;
+}
+
+.menu li {
+  transition: background-color 0.5s ease, transform 0.5s ease;
+}
+
+.menu li a {
+  text-decoration: none;
+  color: rgb(113, 113, 113);
+  font-size: 16px;
+  padding: 0.5rem 1rem;
+  display: block;
+  margin-top: 8px;
+  transition: color 0.5s ease, font-size 0.5s ease;
+}
+
+.menu li:hover a {
+  color: rgb(0, 0, 0);
+  font-size: 18px;
+}
+
+.menu li:hover {
+  transform: scale(1.05);
+}
+
+.menu h1 {
+  color: #bda18a;
+  text-shadow: 0.5px 0.5px 1px rgba(0, 0, 0, 0.1);
+  font-size: 40px;
+  margin-left: 32px;
+  margin-right: 32px;
+}
+
+.cvIcon {
+  margin-left: auto; /* Pousse l'icône à droite */
+}
+
+.cvIcon a {
+  font-size: 1.5rem; /* Taille de l'icône */
+  color: rgb(255, 0, 0);
+  padding: 0.5rem 1rem;
+  transition: color 0.5s ease, transform 0.5s ease;
+}
+
+.cvIcon a:hover {
+  color: #005bb5;
+  transform: scale(1.1); /* Légère augmentation de la taille au survol */
+}
