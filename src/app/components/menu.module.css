@@ -49,10 +49,14 @@
 
 .cvIcon {
   margin-left: auto; /* Pousse l'icône à droite */
+  display: flex; /* Flexbox pour aligner l'icône et le texte */
+  align-items: center; /* Aligne verticalement */
 }
 
 .cvIcon a {
-  font-size: 1.5rem; /* Taille de l'icône */
+  display: flex; /* Utilisation de flex pour aligner le texte et l'icône */
+  align-items: center;
+  font-size: 1.5rem; /* Taille du texte et de l'icône */
   color: rgb(255, 0, 0);
   padding: 0.5rem 1rem;
   transition: color 0.5s ease, transform 0.5s ease;
@@ -61,4 +65,15 @@
 .cvIcon a:hover {
   color: #005bb5;
   transform: scale(1.1); /* Légère augmentation de la taille au survol */
+}
+
+.icon {
+  margin-right: 8px; /* Espace entre l'icône et le texte */
+  width: 20px;
+  height: 20px;
+}
+
+.cvText {
+  font-size: 1rem; /* Taille du texte */
+  color: black;
 }

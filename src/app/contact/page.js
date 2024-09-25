@@ -1,4 +1,3 @@
-// src/app/contact/page.js
 import React from "react";
 import Menu from "../components/Menu";
 import Footer from "../components/Footer";
@@ -13,27 +12,47 @@ const Contact = () => {
           <h1 className={styles.heading}>Contactez-moi</h1>
           <form className={styles.contactForm}>
             <div className={styles.formGroup}>
-              <label htmlFor="firstName">Prénom</label>
-              <input type="text" id="firstName" name="firstName" required />
+              <input
+                type="text"
+                id="firstName"
+                name="firstName"
+                placeholder="Prénom"
+                required
+              />
             </div>
             <div className={styles.formGroup}>
-              <label htmlFor="lastName">Nom</label>
-              <input type="text" id="lastName" name="lastName" required />
+              <input
+                type="text"
+                id="lastName"
+                name="lastName"
+                placeholder="Nom"
+                required
+              />
             </div>
             <div className={styles.formGroup}>
-              <label htmlFor="email">Email</label>
-              <input type="email" id="email" name="email" required />
+              <input
+                type="email"
+                id="email"
+                name="email"
+                placeholder="Email"
+                required
+              />
             </div>
             <div className={styles.formGroup}>
-              <label htmlFor="subject">Objet</label>
-              <input type="text" id="subject" name="subject" required />
+              <input
+                type="text"
+                id="subject"
+                name="subject"
+                placeholder="Objet"
+                required
+              />
             </div>
             <div className={styles.formGroup}>
-              <label htmlFor="message">Message</label>
               <textarea
                 id="message"
                 name="message"
                 rows="4"
+                placeholder="Message"
                 required
               ></textarea>
             </div>

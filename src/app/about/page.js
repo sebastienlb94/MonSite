@@ -5,14 +5,15 @@ import styles from "./about.module.css";
 
 const About = () => {
   return (
-    <>
+    <div className={styles.pageContainer}>
       <Menu />
       <div className={styles.aboutContainer}>
         <div className={styles.content}>
           <div className={styles.imageContainer}>
             <img
-              src="/profile.jpg" // Assure-toi d'avoir ajouté cette image dans le dossier public
+              src="/profile.jpg"
               alt="Photo de Sébastien"
+              className={styles.profileImage}
             />
           </div>
           <div className={styles.textContainer}>
@@ -50,7 +51,7 @@ const About = () => {
         </div>
       </div>
       <Footer />
-    </>
+    </div>
   );
 };
 

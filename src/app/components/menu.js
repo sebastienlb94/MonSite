@@ -27,7 +27,8 @@ const Menu = () => {
             rel="noopener noreferrer"
             aria-label="Télécharger mon CV"
           >
-            <FontAwesomeIcon icon={faDownload} />
+            <FontAwesomeIcon icon={faDownload} className={styles.icon} />
+            <span className={styles.cvText}>Mon CV</span>
           </a>
         </li>
       </ul>

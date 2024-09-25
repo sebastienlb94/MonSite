@@ -4,7 +4,7 @@
   justify-content: center;
   align-items: center;
   padding: 2rem;
-  background-color: f5efe6;
+  background-color: #f5efe6;
 }
 
 .formContainer {
@@ -20,6 +20,7 @@
   text-align: center;
   margin-bottom: 1.5rem;
   color: #333;
+  font-size: 30px;
 }
 
 .contactForm {
@@ -33,20 +34,19 @@
   flex-direction: column;
 }
 
-.formGroup label {
-  font-size: 1rem;
-  margin-bottom: 0.5rem;
-  color: #555;
-}
-
 .formGroup input,
 .formGroup textarea {
-  padding: 0.75rem;
+  padding: 0.5rem;
   border: 1px solid #ddd;
   background-color: #d5cabc;
   border-radius: 4px;
   font-size: 1rem;
   width: 100%;
+}
+
+.formGroup input::placeholder,
+.formGroup textarea::placeholder {
+  color: #bbb0a2; /* Couleur du texte du placeholder */
 }
 
 .formGroup textarea {

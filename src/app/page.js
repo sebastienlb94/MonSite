@@ -4,7 +4,7 @@ import Footer from "./components/footer";
 
 export default function Home() {
   return (
-    <div>
+    <div className={styles.pageContainer}>
       <Menu />
       <div className={styles.container}>
         <div className={styles.text}>
