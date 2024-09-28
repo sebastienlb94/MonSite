@@ -40,3 +40,9 @@ a {
     color-scheme: dark;
   }
 }
+
+.pageContainer {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
